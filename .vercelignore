@@ -1,0 +1,17 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore all Jupyter Notebooks (*.ipynb)
+*.ipynb
+
+# Ignore Python cache folders
+__pycache__/
+
+# Ignore the original large CSV file if it's not the one being used by app.py
+# If your app.py USES market_prices.csv, then you cannot ignore the data folder.
+# If you made a smaller data file, you could ignore the big one here.
+
+# Ignore other unnecessary files from your screenshot
+data.txt
+test_system.py
+streamlit_app.py
